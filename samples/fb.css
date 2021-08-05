@@ -1,0 +1,232 @@
+.header{
+    background:rgb(12, 9, 214);
+    /* width: 100%; */
+    height: fit-content;
+    padding: 1rem;
+    /* display: flex; */
+    flex: 1 1 40rem;
+}
+.h-section{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+body{
+    margin: 0;
+    font-family: helvetica neue, Arial, Helvetica, sans-serif ;
+    flex: 1 1 40rem;
+    
+}
+.logo{
+    flex: 1 1 40rem;
+    padding-top: 32px;
+    /* float: left; */
+    width: fit-content;
+
+}
+.login{
+ 
+    flex: 1 1 40rem;
+    /* float: left; */
+    /* margin-left: 97px;   */
+}
+.logo-text{
+   
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: helvetica neue, Arial, Helvetica, sans-serif;
+    /* margin-left: 170px; */
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+    
+}
+.login.control{
+    margin-left: 115px;
+
+}
+.login{
+    padding-top: 10px;
+    
+}
+.forgotten{
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    
+}
+.sub-btn{
+    background-color: #4267b2;
+    color: #fff;
+    border-color:#518ff7;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.left-section{
+    flex: 1 1 40rem;
+    /* width: 50%; */
+    /* float: left; */
+
+}
+.right-section{
+    flex: 1 1 40rem;
+    /* width: 50%; */
+    /* float: left; */
+}
+.main-body{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#dedede, #fff);
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-btn:hover{
+    background-color: rgb(127, 126, 187);
+}
+.pic{
+    width: 100%;
+    height: 428px;
+}
+.fab{
+    padding-left: 161px;   
+    padding-top: 159px;
+
+
+}
+.content{
+    
+    padding-left: 100px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.icon-cog{
+    color: rgb(12, 9, 214);
+}
+.element{
+    margin-bottom: 20px;
+}
+.first{
+    height: 24px;
+    width: 178px;
+    border-radius: 7px;
+    font-size: 13px;
+    border-color: #fff; 
+}
+.top{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.second{
+    height: 24px;
+    width: 178px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-left: 10px;
+    border-color: #fff; 
+    
+}
+.phorem{
+    height: 24px;
+    width: 375px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-left: 10px;
+    border-color: #fff; 
+    margin-left: 100px;
+}
+.cr{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left:  100px;
+}
+.it{
+    font-size: 10px;
+    margin-left:  100px;
+    font-weight: 800;
+}
+.d{
+   
+    margin-left: 100px;
+    height: 10px;
+}
+.dob{
+    
+    
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left:  100px;
+    font-weight: 800;
+}
+
+
+
+    
+
+.pu{
+    
+    margin-left: 92px;
+}
+.ge{
+    margin-top: 50px;
+    font-size: 10px;
+    margin-left:  100px;
+    font-weight: 800;
+}
+.by{
+    font-size: 11px;
+    margin-left: 100px;
+    font-weight: 200;
+}
+.si{
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 107px;
+    height: 25px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight:900 ;
+    font-size:13px;
+    background-color: green;
+    letter-spacing: 2px;
+}
+.crt{
+    font-size: 11px;
+    margin-left: 100px;
+    font-weight: 200;
+}
+input:focus{
+    outline: none;
+  
+}
+@media only screen and (max-width: 768px) {
+    .login{
+        width: 120%;
+        float: left;
+        margin-left: 100px; 
+}}
+
+body{background:#ECF0F1}
+
+.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:100px;
+  height:100px;
+}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+.load :last-child{background:#193B48}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}

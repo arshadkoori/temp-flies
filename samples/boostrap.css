@@ -1,0 +1,11 @@
+.image{
+    width: 10rem;
+    height: 10rem;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform .5s;
+
+}
+.image:hover{
+transform :scale(1.1)
+}

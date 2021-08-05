@@ -1,0 +1,46 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(2, 242, 250);
+    margin-left: 400px;
+    border-radius: 20px;
+}
+#screen{
+    width: 80%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+
+}
+.row{
+    padding: 10px;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: rgb(0, 0, 0);
+ font-weight: 800;
+ color: beige;
+border-radius: 15px;
+font-style: italic;
+
+}
+.c{
+    width: 60px;
+    border-radius: 15px;
+    height: 45px;
+    font-weight: 800;
+
+font-style: italic;
+    margin-left: 38px;
+    margin-top: 30px;
+    background: rgb(221, 4, 15);
+}
+.calcu{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
